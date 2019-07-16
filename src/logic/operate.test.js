@@ -17,7 +17,7 @@ describe('calculator should add subtract and multiply', () => {
     // });
 
     test('multiplies 3 x 3 to equal 9', () => {
-        expect(operate( 3, 3,'x')).toBe("1");
+        expect(operate( 3, 3,'x')).toBe("2");
     });
 })
 
