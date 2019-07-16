@@ -4,7 +4,7 @@ import { fail } from 'assert';
 describe('calculator should add subtract and multiply', () => {
 
 
-    test('adds 3 + 3 to equal 9', () => {
+    test('adds 3 + 3 to equal 6', () => {
         expect(operate( 3, 3,'+')).toBe("6");
     });
 
@@ -17,7 +17,7 @@ describe('calculator should add subtract and multiply', () => {
     // });
 
     test('multiplies 3 x 3 to equal 9', () => {
-        expect(operate( 3, 3,'x')).toBe("9");
+        expect(operate( 3, 3,'x')).toBe("1");
     });
 })
 
